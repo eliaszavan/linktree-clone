@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body * {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* Bloqueando scrollbar horizontal */
+}
+
+body::-webkit-scrollbar { /* Ocultando a scrollbar (apenas para ficar mais bonito)*/
+  display: none;
+}
+
+body {
+  background: linear-gradient(to bottom, #7B8795, #212633)
+}
+
+p, a, h1, h2 {
+  color: #fcfcfc;
+  font-size: 24px;;
+}
+
+#perfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  
+}
+
+#perfil p {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+#perfil img { 
+  width: 5%;
+  margin-top: 90px;
+  margin-bottom: 24px;
+  border-radius: 50%; /* Faz o avatar ser circular */
+  object-fit: cover; /* Ajuste proporcional */
+}
+
+.container { /* Links */
+    height: 100%;
+    width: 100%;
+    max-width: 580px;
+}
